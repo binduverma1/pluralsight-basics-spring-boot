@@ -9,11 +9,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PersistenceConfiguration {
 	
-	@Bean
+	/*@Bean
 	public DataSource datasource() {
 		DataSourceBuilder builder = DataSourceBuilder.create();
 		builder.url("jdbc:mysql://localhost:3306/Conference").username("root").password("password");
 		return builder.build();
-	}
+	}*/
 
 }
